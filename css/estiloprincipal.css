@@ -20,11 +20,11 @@ header {
 }
 
 .background {
+    position: absolute;
     width: 100%;
     height: 100%;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 8);
-    filter: grayscale(1);
 }
 
 .background img {
@@ -199,11 +199,13 @@ header {
 
 .email p {
     font-size: 1.7em;
+    color: #202020;
 }
 
 #entrada {
     width: 95%;
-    height: 2em;
+    font-size: 2em;
+    color: rgb(104, 104, 104);
     border-style: solid;
     border-color: #d1d1d1;
     border-radius: 3px;
@@ -245,19 +247,136 @@ header {
 
 #inscriçao {
     position: absolute;
-    top: 12%;
-    right: 32%;
+    top: 5%;
+    right: 31%;
     bottom: 5%;
-    left: 32%;
+    left: 31%;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px 2px rgba(20, 20, 20, 0.7);
 }
 
 #inscriçao h1 {
+    color: #202020;
     text-align: center;
     margin: 0.5em
 }
 
+
+/*horario*/
+
+#tempo {
+    color: #202020;
+    margin-left: 1em;
+}
+
 #horario {
-    padding: 0px 0px 10em 0px;
+    height: 1.6em;
+    margin: 0 0 0.5em 2em;
+    color: rgb(104, 104, 104);
+    border-style: solid;
+    border-color: #d1d1d1;
+}
+
+
+/*contato*/
+
+#contato {
+    color: #202020;
+    margin-left: 1em;
+}
+
+#telefone {
+    width: 90%;
+    margin: 0 0 0.5em 1em;
+    color: rgb(104, 104, 104);
+    font-size: 1.6em;
+    border-style: solid;
+    border-color: #d1d1d1;
+}
+
+
+/*email*/
+
+#tmail {
+    color: #202020;
+    margin-left: 1em;
+}
+
+#email {
+    width: 90%;
+    margin-left: 1em;
+    color: rgb(104, 104, 104);
+    font-size: 1.6em;
+    border-style: solid;
+    border-color: #d1d1d1;
+    margin: 0 0 0.5em 1em;
+}
+
+
+/*novidades*/
+
+#nov {
+    margin: 0em 0em 0em 1em;
+    color: #202020;
+}
+
+#nov label {
+    padding: 1em;
+}
+
+#novsim {
+    margin: 0.5em 0em 1em 1em;
+    padding: 0em 0em 0em 10em;
+    cursor: pointer;
+}
+
+#novnao {
+    margin: 0.5em 0em 1em 1em;
+    padding: 0em 0em 0em 10em;
+    cursor: pointer;
+}
+
+
+/*duvidas*/
+
+#tduv {
+    color: #202020;
+    margin-left: 1em;
+}
+
+#duvidas {
+    width: 90%;
+    margin-left: 1em;
+    color: rgb(104, 104, 104);
+    font-size: 1.4em;
+    border-style: solid;
+    border-color: #d1d1d1;
+}
+
+
+/*envio*/
+
+#envio {
+    margin: 1em 23em 0em 9.5em;
+    padding: 0.7em 1.4em;
+    font-size: 1.2em;
+    border: none;
+    color: white;
+    text-align: top;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+}
+
+#envio:hover {
+    background: #0F2027;
+    background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to top, #2C5364, #203A43, #0F2027);
+}
+
+#envio:active {
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
 }
