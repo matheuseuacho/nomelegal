@@ -243,10 +243,22 @@ header {
 /*button*/
 
 
+/*back2*/
+
+#background2 {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+}
+
+
 /*Inscrção*/
 
 #inscriçao {
     position: absolute;
+    overflow: hidden;
     top: 5%;
     right: 31%;
     bottom: 5%;
@@ -358,7 +370,7 @@ header {
 /*envio*/
 
 #envio {
-    margin: 1em 23em 0em 9.5em;
+    margin: 1em 23em 0em 10em;
     padding: 0.7em 1.4em;
     font-size: 1.2em;
     border: none;
@@ -379,4 +391,38 @@ header {
     background: #0F2027;
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+}
+
+
+/*footer*/
+
+footer {
+    height: 45vh;
+    background-color: #091216;
+    padding: 1.4em;
+}
+
+footer ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20em 0 0;
+    font-size: 17px;
+}
+
+footer li {
+    padding: 1em;
+    margin: 1em;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    color: white;
+    margin: 1.5em;
 }
