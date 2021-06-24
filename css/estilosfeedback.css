@@ -57,15 +57,72 @@ main {
 #background {
     position: absolute;
     overflow: hidden;
-    top: 17%;
+    top: 15%;
     right: 32%;
-    bottom: 1%;
+    padding-bottom: 1em;
     left: 32%;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0px 0px 25px 2px #d1d1d1;
     ;
 }
+
+#background h1 {
+    color: #202020;
+    text-align: center;
+    margin: 0.5em
+}
+
+
+/*rpidez*/
+
+#tpro {
+    color: #202020;
+    margin-left: 1em;
+}
+
+#novsim {
+    margin: 0.5em 0em 1em 1em;
+    padding: 0em 0em 0em 10em;
+    cursor: pointer;
+}
+
+#novnao {
+    margin: 0.5em 0em 1em 1em;
+    padding: 0em 0em 0em 10em;
+    cursor: pointer;
+}
+
+
+/*descrição*/
+
+#tdesc {
+    color: #202020;
+    margin-left: 1em;
+}
+
+#desc {
+    width: 90%;
+    margin-left: 1em;
+    color: rgb(104, 104, 104);
+    font-size: 1.4em;
+    border-style: solid;
+    border-color: #d1d1d1;
+}
+
+#sats {
+    margin: 0em 0em 0em 1em;
+    color: #202020;
+}
+
+#imagemzada {
+    margin: 0em 0em 0em 1em;
+}
+
+p {
+    color: red;
+}
+
 
 /*footer*/
 
@@ -90,6 +147,7 @@ footer li {
 footer a {
     color: white;
 }
+
 ,
 footer a:hover {
     text-decoration: underline;
